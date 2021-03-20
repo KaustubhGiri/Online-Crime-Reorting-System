@@ -1,0 +1,10 @@
+
+.form-group{
+  margin : 20px;
+  padding-bottom: 20px;
+
+}
+.column{
+    width: 100%;
+    float: left;
+}

@@ -1,0 +1,71 @@
+body{
+   
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  
+}
+h2{
+  font-size: 46px;
+  font-style: italic;
+  margin-left: 100px;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  width:75%;
+  color: white;
+}
+
+form{
+  /*max-width:540px;*/ 
+  background-color: white;
+  margin-top: 80px;
+  width: 386px;
+  margin-left: 10px
+  
+}
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+  padding-left: 70px;
+}
+
+.flex-container {
+  display: flex;
+
+}
+
+.icon {
+  padding: 10px;
+  background: #1A1A1A;
+  color: white;
+  min-width: 40px;
+  text-align: center;
+}
+
+.input-field {
+  width: 40%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #1A1A1A;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 29.5%;
+  opacity: 0.9;
+  margin-bottom: 20px;
+}
+
+.btn:hover {
+  opacity: 1;
+}

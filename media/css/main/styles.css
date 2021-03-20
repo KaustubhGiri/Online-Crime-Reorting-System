@@ -1,0 +1,128 @@
+
+
+              
+.image1 {
+  top: 0;
+  left: 0;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 100%;
+  height: 100%;
+  }
+
+ 
+.image2{
+  position: absolute;
+  top: 190px;
+  left: 150px;
+  opacity: 0.85;
+  width:25%;
+  
+  }
+
+ 
+.text {
+  text-align: center;
+  position: absolute;
+  font-size: 40px;
+  font-style: italic;
+  top: 45%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 444px) {
+  .image2{
+    position: absolute;
+    top: 100px;
+    left: 40%;
+    opacity: 0.85;
+    width:25%;
+    margin-bottom: 20px;
+  
+  }
+  
+  .text {
+    text-align: center;
+    position: absolute;
+    font-size: 25px;
+    font-style: italic;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+}
+
+@media only screen and (min-width: 445px) and (max-width: 630px) {
+  .image2{
+    position: absolute;
+    top: 100px;
+    left: 37%;
+    opacity: 0.85;
+    width:25%;
+    margin-bottom: 20px;
+  
+  }
+  
+  .text {
+    text-align: center;
+    position: absolute;
+    font-size: 25px;
+    font-style: italic;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+}
+
+@media only screen and (min-width: 631px) and (max-width: 840px) {
+  .image2{
+    position: absolute;
+    top: 100px;
+    left: 37%;
+    opacity: 0.85;
+    width:25%;
+    margin-bottom: 20px;
+  
+  }
+  
+  .text {
+    text-align: center;
+    position: absolute;
+    font-size: 19px;
+    font-style: italic;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+}
+
+@media only screen and (min-width: 825px) and (max-width: 1207px) {
+  .image2{
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    opacity: 0.85;
+    width:25%;
+    
+  }
+  .text {
+    text-align: center;
+    position: absolute;
+    font-size: 30px;
+    font-style: italic;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+}
+
+ 
